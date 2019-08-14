@@ -344,7 +344,7 @@ public class MediaPlayerManager implements TextureView.SurfaceTextureListener {
 
     @Override
     public boolean onSurfaceTextureDestroyed(SurfaceTexture surfaceTexture) {
-        Log.i(TAG, "onSurfaceTextureDestroyed [" + "] ");
+        Log.i(TAG, "onSurfaceTextureDestroyed [" + "] "+ surfaceTexture.toString() + "jghjghkgj");
         return this.surfaceTexture == null;
     }
 
